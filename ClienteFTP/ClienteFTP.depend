@@ -7200,11 +7200,11 @@
 1606156396 d:\users\naste\documents\github\piftp\clienteftp\headers\contenedorprincipal.h
 	<gtkmm.h>
 
-1606170496 source:d:\users\naste\documents\github\piftp\clienteftp\sources\ventanaprincipal.cpp
+1606174493 source:d:\users\naste\documents\github\piftp\clienteftp\sources\ventanaprincipal.cpp
 	<iostream>
 	<gtkmm.h>
 	"../Headers/VentanaPrincipal.h"
 
-1606173867 d:\users\naste\documents\github\piftp\clienteftp\headers\ventanaprincipal.h
+1606175579 d:\users\naste\documents\github\piftp\clienteftp\headers\ventanaprincipal.h
 	<gtkmm.h>
 
