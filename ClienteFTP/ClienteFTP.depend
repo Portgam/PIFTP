@@ -1,13 +1,10 @@
 # depslib dependency file v1.0
-1606162859 source:d:\users\naste\documents\github\piftp\clienteftp\main.cpp
+1606172949 source:d:\users\naste\documents\github\piftp\clienteftp\main.cpp
 	<iostream>
 	<gtkmm.h>
-	<gtkmm/application.h>
-	<gtk/gtk.h>
 	"./Headers/VentanaPrincipal.h"
-	"./Headers/ContenedorPrincipal.h"
 
-1606156629 source:d:\users\naste\documents\github\piftp\clienteftp\sources\contenedorprincipal.cpp
+1606163000 source:d:\users\naste\documents\github\piftp\clienteftp\sources\contenedorprincipal.cpp
 	<iostream>
 	<gtkmm.h>
 	"../Headers/ContenedorPrincipal.h"
@@ -7203,12 +7200,11 @@
 1606156396 d:\users\naste\documents\github\piftp\clienteftp\headers\contenedorprincipal.h
 	<gtkmm.h>
 
-1606162786 source:d:\users\naste\documents\github\piftp\clienteftp\sources\ventanaprincipal.cpp
+1606170496 source:d:\users\naste\documents\github\piftp\clienteftp\sources\ventanaprincipal.cpp
 	<iostream>
 	<gtkmm.h>
 	"../Headers/VentanaPrincipal.h"
 
-1606157839 d:\users\naste\documents\github\piftp\clienteftp\headers\ventanaprincipal.h
+1606173867 d:\users\naste\documents\github\piftp\clienteftp\headers\ventanaprincipal.h
 	<gtkmm.h>
-	"ContenedorPrincipal.h"
 
