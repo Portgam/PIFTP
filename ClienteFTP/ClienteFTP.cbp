@@ -13,7 +13,11 @@
 				<Option compiler="gcc" />
 				<Compiler>
 					<Add option="-g" />
+					<Add option="`pkg-config gtkmm-3.0 --cflags`" />
 				</Compiler>
+				<Linker>
+					<Add option="`pkg-config gtkmm-3.0 --libs`" />
+				</Linker>
 			</Target>
 			<Target title="Release">
 				<Option output="bin/Release/ClienteFTP" prefix_auto="1" extension_auto="1" />
@@ -32,6 +36,10 @@
 			<Add option="-Wall" />
 			<Add option="-fexceptions" />
 		</Compiler>
+		<Unit filename="Headers/ContenedorPrincipal.h" />
+		<Unit filename="Headers/VentanaPrincipal.h" />
+		<Unit filename="Sources/ContenedorPrincipal.cpp" />
+		<Unit filename="Sources/VentanaPrincipal.cpp" />
 		<Unit filename="main.cpp" />
 		<Extensions>
 			<lib_finder disable_auto="1" />
