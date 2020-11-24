@@ -55,12 +55,11 @@ void W_principal::set_caja3(){
 void W_principal::set_caja4(){
     b_caja4.set_orientation(Gtk::Orientation::ORIENTATION_HORIZONTAL);
     b_caja4.add(b_caja4_1);
-    b_caja4.add(b_caja4_2);
 
-    b_caja4_1.add(fc_archivos);
-    fc_archivos.set_current_folder("./Headers");
+    b_caja4_1.add(tv);
+    tv.set_model(sl_dir);
+    tv.append_column("nombredir", columnasDir.m_col_text);
 
-    b_caja4_2.set_orientation(Gtk::Orientation::ORIENTATION_VERTICAL);
 }
 
 void W_principal::set_caja5(){
@@ -69,3 +68,8 @@ void W_principal::set_caja5(){
     pb_progreso.set_text("Barra de progreso");
     pb_progreso.set_show_text(true);
 }
+
+void W_principal::refrescar_directorios(Gtk::TreeStore *treestore, const char *directorio, Gtk::TreeIter *nivel){
+
+}
+
