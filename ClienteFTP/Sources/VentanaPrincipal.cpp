@@ -8,9 +8,15 @@ W_principal::W_principal(){
 
     b_cajaPrincipal.add(b_caja1);
     b_cajaPrincipal.add(b_caja2);
+    b_cajaPrincipal.add(b_caja3);
+    b_cajaPrincipal.add(b_caja4);
+    b_cajaPrincipal.add(b_caja5);
 
     set_caja1();
     set_caja2();
+    set_caja3();
+    set_caja4();
+    set_caja5();
 
     this->show_all_children();
     this->set_title("Cliente FTP");
@@ -33,4 +39,33 @@ void W_principal::set_caja1(){
 void W_principal::set_caja2(){
     b_caja2.add(e_mensajes);
     e_mensajes.set_text("Hola Mundo");
+}
+
+void W_principal::set_caja3(){
+    b_caja3.set_orientation(Gtk::Orientation::ORIENTATION_HORIZONTAL);
+    b_caja3.add(b_cargar);
+    b_caja3.add(b_descargar);
+    b_caja3.add(b_modificar);
+
+    b_cargar.set_label("CargarArchivo");
+    b_descargar.set_label("Descargar");
+    b_modificar.set_label("Modificar");
+}
+
+void W_principal::set_caja4(){
+    b_caja4.set_orientation(Gtk::Orientation::ORIENTATION_HORIZONTAL);
+    b_caja4.add(b_caja4_1);
+    b_caja4.add(b_caja4_2);
+
+    b_caja4_1.add(fc_archivos);
+    fc_archivos.set_current_folder("./Headers");
+
+    b_caja4_2.set_orientation(Gtk::Orientation::ORIENTATION_VERTICAL);
+}
+
+void W_principal::set_caja5(){
+    b_caja5.set_orientation(Gtk::Orientation::ORIENTATION_HORIZONTAL);
+    b_caja5.add(pb_progreso);
+    pb_progreso.set_text("Barra de progreso");
+    pb_progreso.set_show_text(true);
 }
