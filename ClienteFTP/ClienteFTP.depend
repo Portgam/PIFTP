@@ -7200,11 +7200,58 @@
 1606156396 d:\users\naste\documents\github\piftp\clienteftp\headers\contenedorprincipal.h
 	<gtkmm.h>
 
-1606174493 source:d:\users\naste\documents\github\piftp\clienteftp\sources\ventanaprincipal.cpp
+1607135988 source:d:\users\naste\documents\github\piftp\clienteftp\sources\ventanaprincipal.cpp
 	<iostream>
 	<gtkmm.h>
+	<filesystem>
+	<string>
+	"../Headers/VentanaPrincipal.h"
+	"../Headers/FuncionesBotones.h"
+
+1607140850 d:\users\naste\documents\github\piftp\clienteftp\headers\ventanaprincipal.h
+	<gtkmm/window.h>
+	<gtkmm/button.h>
+	<gtkmm/entry.h>
+	<gtkmm/label.h>
+	<gtkmm/treeview.h>
+	<gtkmm/liststore.h>
+	<gtkmm/progressbar.h>
+	<gtkmm/filechooserwidget.h>
+	<gtkmm/widget.h>
+	<iostream>
+	<string>
+	"../Headers/Modelocolumnas.h"
+	"../Headers/FTP.h"
+
+1607019152 d:\users\naste\documents\github\piftp\clienteftp\/headers\modelocolumnas.h
+	<gtkmm/treemodelcolumn.h>
+
+1607019961 source:d:\users\naste\documents\github\piftp\clienteftp\sources\modelocolumnas.cpp
+	"../Headers/Modelocolumnas.h"
+
+1607045185 d:\users\naste\documents\github\piftp\clienteftp\headers\modelocolumnas.h
+	<gtkmm/treemodelcolumn.h>
+
+1607135732 source:d:\users\naste\documents\github\piftp\clienteftp\sources\funcionesbotones.cpp
+	<iostream>
+	<gtkmm/dialog.h>
+	"../Headers/FuncionesBotones.h"
 	"../Headers/VentanaPrincipal.h"
 
-1606186306 d:\users\naste\documents\github\piftp\clienteftp\headers\ventanaprincipal.h
-	<gtkmm.h>
+1607032264 d:\users\naste\documents\github\piftp\clienteftp\headers\funcionesbotones.h
+
+1607061042 source:d:\users\naste\documents\github\piftp\clienteftp\sources\ftp.cpp
+	<iostream>
+	<stdio.h>
+	<string>
+	<winsock2.h>
+	<winsock.h>
+	"../Headers/FTP.h"
+
+1607060294 d:\users\naste\documents\github\piftp\clienteftp\headers\ftp.h
+	<iostream>
+	<string>
+	<winsock2.h>
+	<winsock.h>
+	<vector>
 

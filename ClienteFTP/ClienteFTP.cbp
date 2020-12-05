@@ -36,9 +36,12 @@
 			<Add option="-Wall" />
 			<Add option="-fexceptions" />
 		</Compiler>
-		<Unit filename="Headers/ContenedorPrincipal.h" />
+		<Unit filename="Headers/FTP.h" />
+		<Unit filename="Headers/FuncionesBotones.h" />
+		<Unit filename="Headers/Modelocolumnas.h" />
 		<Unit filename="Headers/VentanaPrincipal.h" />
-		<Unit filename="Sources/ContenedorPrincipal.cpp" />
+		<Unit filename="Sources/FTP.cpp" />
+		<Unit filename="Sources/FuncionesBotones.cpp" />
 		<Unit filename="Sources/VentanaPrincipal.cpp" />
 		<Unit filename="main.cpp" />
 		<Extensions>
